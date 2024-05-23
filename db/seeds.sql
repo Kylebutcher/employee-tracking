@@ -1,8 +1,8 @@
 INSERT INTO department(name)
-VALUES('Sales', 1), 
-('Engineering', 2), 
-('Finance', 3), 
-('Legal', 4);
+VALUES('Sales'), 
+('Engineering'), 
+('Finance'), 
+('Legal');
 
 INSERT INTO role(title, salary, department_id)
 VALUES('Sales Lead', 100000, 1),
@@ -17,7 +17,7 @@ VALUES('Sales Lead', 100000, 1),
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
 VALUES('John', 'Doe', 1, NULL),
       ('Mike', 'Chan', 1, 1),
-      ('Ashley', 'Rodriguez' 2, NULL),
+      ('Ashley', 'Rodriguez', 2, NULL),
       ('Kevin', 'Tupik', 2, 2),
       ('Kunal', 'Singh', 3, NULL),
       ('Malia', 'Brown', 3, 4),
